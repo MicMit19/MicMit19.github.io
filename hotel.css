@@ -1,0 +1,149 @@
+  @keyframes colorMe {
+
+      0% {
+          background-color: #93eeaa;
+      }
+      25% {
+          background-color: #ff66ff;
+      }
+      50% {
+          background-color: #92FEF9;
+      }
+      75% {
+          background-color: #ffff66;
+      }
+      100% {
+          background-color: #93eeaa;
+      }
+  }
+
+  @keyframes colorYou {
+
+      0% {
+          background-color: #ff66ff;
+      }
+      25% {
+          background-color: #92FEF9;
+      }
+      50% {
+          background-color: #ffff66;
+      }
+      75% {
+          background-color: #93eeaa;
+      }
+      100% {
+          background-color: #ff66ff;
+      }
+  }
+
+  @keyframes colorUs {
+
+      0% {
+          background-color: #92FEF9;
+      }
+      25% {
+          background-color: #ffff66;
+      }
+      50% {
+          background-color: #93eeaa;
+      }
+      75% {
+          background-color: #ff66ff;
+      }
+      100% {
+          background-color: #92FEF9;
+      }
+  }
+
+  @keyframes colorWe {
+
+      0% {
+          background-color: #ffff66;
+      }
+      25% {
+          background-color: #93eeaa;
+      }
+      50% {
+          background-color: #ff66ff;
+      }
+      75% {
+          background-color: #92FEF9;
+      }
+      100% {
+          background-color: #ffff66;
+      }
+  }
+
+
+
+
+  .cool {
+      background-color: #caffd8;
+  }
+
+
+  #font {
+      font-family: Arial;
+      font-size: 75px;
+      color: #ffa4a4;
+      text-shadow: 5px 5px 5px #fff06a;
+  }
+
+  #fontie {
+      font-family: Times New Roman;
+      font-size: 15px;
+      color: #ff5353;
+  }
+
+  #fonties {
+      font-family: Times New Roman;
+      font-size: 20px;
+      color: #F900F9;
+  }
+
+
+
+
+  #room {
+      width: 320px;
+      height: 320px;
+      border-radius: 10px 10px 10px 10px;
+      animation-name: colorMe;
+      animation-delay: 0s;
+      animation-duration: 2.5s;
+      animation-iteration-count: infinite;
+      float: left;
+  }
+
+  #room2 {
+      width: 320px;
+      height: 320px;
+      border-radius: 10px 10px 10px 10px;
+      animation-name: colorYou;
+      animation-delay: 0s;
+      animation-duration: 2.5s;
+      animation-iteration-count: infinite;
+      float: left;
+  }
+
+  #room3 {
+      width: 320px;
+      height: 320px;
+      border-radius: 10px 10px 10px 10px;
+      animation-name: colorUs;
+      animation-delay: 0s;
+      animation-duration: 2.5s;
+      animation-iteration-count: infinite;
+      float: left;
+  }
+
+  #room4 {
+      width: 320px;
+      height: 320px;
+      border-radius: 10px 10px 10px 10px;
+      animation-name: colorWe;
+      animation-delay: 0s;
+      animation-duration: 2.5s;
+      animation-iteration-count: infinite;
+      float: left;
+  }
