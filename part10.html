@@ -18,7 +18,7 @@ function preload() {
     game.load.image('sky', 'anime.jpg');
     game.load.image('ground', 'assets/platform.png');
     game.load.image('star', 'assets/star.png');
-    game.load.spritesheet('dude', 'assets/mario.png', 97, 143);
+    game.load.spritesheet('dude', 'assets/bowswerjr.png', 85, 85);
 //game.load.audio('background_music', assets/LetMeGo.mp3);
 //backgroundMusic = game.add.audio('background_music');
 //backgroundMusic.loop = true;
@@ -60,8 +60,8 @@ function create() {
     player.body.collideWorldBounds = true;
     //  Our two animations, walking left and right.
 
-    player.animations.add('left', [3, 4, 5], 10, true);
-    player.animations.add('right', [0, 1, 2], 10, true);
+    player.animations.add('left', [13, 14, 15, 16, 17], 10, true);
+    player.animations.add('right', [25, 26, 27, 28, 29], 10, true);
     //  Finally some stars to collect
     stars = game.add.group();
     //  We will enable physics for any star that is created in this group
