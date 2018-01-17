@@ -59,8 +59,7 @@ function create() {
     player.body.gravity.y = 300;
     player.body.collideWorldBounds = true;
     //  Our two animations, walking left and right.
-	
-    player.animations.add('still', [0], 10, true);
+
     player.animations.add('left', [3, 4, 5], 10, true);
     player.animations.add('right', [0, 1, 2], 10, true);
     //  Finally some stars to collect
