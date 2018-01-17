@@ -51,7 +51,7 @@ function create() {
     ledge = platforms.create(-150, 250, 'ground');
     ledge.body.immovable = true;
     // The player and its settings
-    player = game.add.sprite(32, game.world.height - 0, 'dude');
+    player = game.add.sprite(32, game.world.height - 150, 'dude');
     //  We need to enable physics on the player
     game.physics.arcade.enable(player);
     //  Player physics properties. Give the little guy a slight bounce.
@@ -59,6 +59,8 @@ function create() {
     player.body.gravity.y = 300;
     player.body.collideWorldBounds = true;
     //  Our two animations, walking left and right.
+	
+    player.animations.add('still', [0], 10, true);
     player.animations.add('left', [3, 4, 5], 10, true);
     player.animations.add('right', [0, 1, 2], 10, true);
     //  Finally some stars to collect
