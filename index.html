@@ -16,8 +16,8 @@
 var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
 function preload() {
     game.load.image('sky', 'anime.jpg');
-    game.load.image('ground', 'assets/platform.png', 30, 30);
-    game.load.image('star', 'assets/starz.png');
+    game.load.image('ground', 'assets/platform.png');
+    game.load.image('star', 'assets/starz.png', 30, 30);
     game.load.spritesheet('dude', 'assets/bowserjr.png', 85, 86.7);
 //game.load.audio('background_music', assets/LetMeGo.mp3);
 //backgroundMusic = game.add.audio('background_music');
