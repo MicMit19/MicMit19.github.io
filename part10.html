@@ -32,6 +32,8 @@ var stars;
 var score = 0;
 var scoreText;
 function create() {
+	
+    sky = game.add.sprite(0, 0, 'sky');
     //  We're going to be using physics, so enable the Arcade Physics system
     game.physics.startSystem(Phaser.Physics.ARCADE);
     //  A simple background for our game
@@ -67,7 +69,12 @@ function create() {
     stars = game.add.group();
     //  We will enable physics for any star that is created in this group
     stars.enableBody = true;
-    //  Here we'll create 12 of them evenly spaced apart
+    //  Here we'll create 12 of them evenly spaced apart   
+    sky.x = 0;
+    sky.y = 0;
+    sky.height = game.height;
+    sky.width = game.width;
+	
     for (var i = 0; i < 12; i++)
     {
         //  Create a star inside of the 'stars' group
